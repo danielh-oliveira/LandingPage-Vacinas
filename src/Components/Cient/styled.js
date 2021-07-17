@@ -18,6 +18,9 @@ export const divCien = styled.div`
         font-size: 34px;
         letter-spacing: 0.045em;
     }
+    & > div > h1:nth-child(2) {
+        font-weight: bold;
+    }
 `
 
 export const buttonCien = styled.button`
@@ -45,10 +48,14 @@ export const buttonCien = styled.button`
 export const divFotoCien = styled.div`
     position: absolute;
     left: 0;
-    top: 1260px;
+    top: 1240px;
     z-index: -100;
 
-    @media (max-width: 1700px) and (min-width: 1430px) {
+    @media (max-width: 1665px) and (min-width: 1430px) {
         top: 1200px;
     }
+`
+
+export const SpanCor = styled.span`
+    color: #7ACFC1;
 `

@@ -7,7 +7,7 @@ export default function Cient() {
         <S.divCien>
             <div>
                 <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla dictum lobortis. Maecenas vel sem id risus pretium aliquam.</h1>
-                <h1>Todos os nossos funcionários são formados em enfermagem e nutrição.</h1>
+                <h1>Todos os nossos funcionários são formados em <S.SpanCor>enfermagem e nutrição.</S.SpanCor></h1>
                 <S.buttonCien>CADASTRE-SE AGORA E GANHE DESCONTO</S.buttonCien>
             </div>
             <S.divFotoCien>

@@ -13,7 +13,7 @@ export default function Home() {
             <Header />
             <S.containerHome>
                 <S.H1home>Cadastre-se na nossa newsletter<br/>para receber as últimas novidades<br/>sobre os nossos novos testes</S.H1home>
-                <S.H1homeNegrito>Cadastre-se e receba cupons<br/>de desconto!</S.H1homeNegrito>
+                <S.H1homeNegrito>Cadastre-se e receba cupons<br/>de <S.SpanCor>desconto!</S.SpanCor></S.H1homeNegrito>
                 <S.divFotoFilha>
                     <S.imgBorda src={imgSenhora} alt='Mãe e filha felizes juntas' />
                 </S.divFotoFilha>

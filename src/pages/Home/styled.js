@@ -81,3 +81,7 @@ export const button = styled.button`
 export const divEmail = styled.div`
     margin-top: 64px;
 `
+
+export const SpanCor = styled.span`
+    color: #7ACFC1;
+`

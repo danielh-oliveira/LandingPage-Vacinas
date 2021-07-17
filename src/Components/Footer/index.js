@@ -39,10 +39,10 @@ export default function Footer(prop) {
         <S.divFtrContainer>
             <p>Landing page desenvolvida por: Daniel Santos Oliveira</p>
             <div>
-                <a href={prop.githLink} target='_blank'>
+                <a href={prop.githLink} rel='noreferrer' target='_blank'>
                     <Gith />
                 </a>
-                <a href={prop.linkedinLink} target='_blank'>
+                <a href={prop.linkedinLink} rel='noreferrer' target='_blank'>
                     <Linkd />
                 </a>
             </div>

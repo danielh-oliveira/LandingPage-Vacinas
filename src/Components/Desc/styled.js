@@ -35,3 +35,8 @@ export const divCirculo = styled.div`
         margin-top: 17px;
     }
 `
+
+export const spanPreto = styled.span`
+    color: #585858;
+    font-weight: bold;
+`

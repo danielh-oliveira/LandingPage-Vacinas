@@ -5,24 +5,52 @@ export const container = styled.div`
     margin-top: 1%;
     margin-bottom: 2%;
     display: flex;
+    & > div {
+        cursor: pointer;
+    }
+    
+    @media (max-width: 1460px) {
+        margin-top: 20px;
+        margin-left: 30px;
+        & > div > img {
+            width: 5rem;
+        }
+    }
+
 `
 
 export const ul = styled.ul`
     display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 1460px) {
+        padding-left: 15px;
+        padding-top: 10px
+    }
 `
 
 export const li = styled.li`
-    justify-content: flex-end;
-`
 
-export const p = styled.p`
+    list-style-type: none;
     margin-right: 30px;
     font-style: normal;
     font-weight: normal;
     font-size: 22.652px;
     line-height: 30px;
     color: #545454;
+    padding-top: 20px;
     &:first-child {
         margin-left: 81px;
+    }
+    cursor: pointer;
+
+    @media (max-width: 1460px) {
+        margin-right: 15px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #545454;
+        &:first-child {
+            margin-left: 0;
+        }
     }
 `

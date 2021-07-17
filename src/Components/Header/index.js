@@ -10,9 +10,9 @@ export default function Header() {
                 <img src={logo} alt='Logo da empresa' />
             </div>
             <S.ul>
-                <S.p>Sobre</S.p>
-                <S.p>Funcionários</S.p>
-                <S.p>Valores</S.p>
+                <S.li>Sobre</S.li>
+                <S.li>Funcionários</S.li>
+                <S.li>Valores</S.li>
             </S.ul>
         </S.container>
     );
