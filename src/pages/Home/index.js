@@ -1,7 +1,11 @@
 import React from 'react';
-import Header from '../../Components/Header/'
-import imgHold from './img/imghold.png'
-import * as S from './styled'
+import Header from '../../Components/Header/';
+import Desc from '../../Components/Desc/'
+import Cient from '../../Components/Cient/'
+import Footer from '../../Components/Footer/';
+import imgSenhora from './img/imgSenhora.png';
+
+import * as S from './styled';
 
 export default function Home() {
     return(
@@ -11,13 +15,16 @@ export default function Home() {
                 <S.H1home>Cadastre-se na nossa newsletter<br/>para receber as últimas novidades<br/>sobre os nossos novos testes</S.H1home>
                 <S.H1homeNegrito>Cadastre-se e receba cupons<br/>de desconto!</S.H1homeNegrito>
                 <S.divFotoFilha>
-                    <S.imgBorda src={imgHold} alt='Mãe e filha felizes juntas' />
+                    <S.imgBorda src={imgSenhora} alt='Mãe e filha felizes juntas' />
                 </S.divFotoFilha>
                 <S.divEmail>
-                    <S.input placeholder="Clique aqui e digite seu e-mail"/>
+                    <S.input placeholder="Clique aqui e digite seu e-mail" type='email' />
                     <S.button>CADASTRAR E-MAIL</S.button>
                 </S.divEmail>
             </S.containerHome>
+            <Desc />
+            <Cient />
+            <Footer githLink='https://github.com/danielh-oliveira' linkedinLink='https://www.linkedin.com/in/daniel-santos-96290696'/>
         </>
     );
 }

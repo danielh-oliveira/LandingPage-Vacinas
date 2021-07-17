@@ -28,10 +28,10 @@ export const divFotoFilha = styled.div`
     position: absolute;
     right: 0;
     top: 0;
+    z-index: -100;
 `
 export const imgBorda = styled.img`
-    box-shadow: -10px 0px 40px rgba(0, 0, 0, 0.17);
-    z-index: -100;
+    z-index: -10;
 `
 
 export const input = styled.input`
@@ -67,6 +67,7 @@ export const button = styled.button`
     &:active{
         background-image: linear-gradient(#54B8A8, #7ACFC1);
     }
+    box-shadow: 0px 10px 25px #7ACFC1;
 
     font-family: Roboto Slab;
     font-style: normal;
