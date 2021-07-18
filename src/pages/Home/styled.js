@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const containerHome = styled.div`
     margin-left: 10%;
     margin-top: 11%;
+
+    @media (max-width: 1460px) {
+        margin: 11% 5% 0 5%;
+    }
 `
 
 export const H1home = styled.h1`
@@ -12,6 +16,11 @@ export const H1home = styled.h1`
     line-height: 45px;
     letter-spacing: 0.045em;
     color: #000000;
+
+    @media (max-width: 1460px) {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
 `
 
 export const H1homeNegrito = styled.h1`
@@ -22,6 +31,11 @@ export const H1homeNegrito = styled.h1`
     letter-spacing: 0.045em;
     color: #000000;
     font-weight: bold;
+
+    @media (max-width: 1460px) {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
 `
 
 export const divFotoFilha = styled.div`
@@ -29,6 +43,10 @@ export const divFotoFilha = styled.div`
     right: 0;
     top: 0;
     z-index: -100;
+
+    @media (max-width: 1460px) {
+        display: none;
+    }
 `
 export const imgBorda = styled.img`
     z-index: -10;
@@ -51,6 +69,10 @@ export const input = styled.input`
     color: #585858;
 
     text-indent: 15px;
+
+    @media (max-width: 1460px) {
+        width: 280px;
+    }
 `
 export const button = styled.button`
     border-radius: 40px;
@@ -76,6 +98,12 @@ export const button = styled.button`
     line-height: 18px;
     letter-spacing: 0.07em;
     color: #FFFFFF;
+
+    @media (max-width: 1460px) {
+        width: 195px;
+        position: inherit;
+        margin: 30px 0 0 0;
+    }
 `
 
 export const divEmail = styled.div`

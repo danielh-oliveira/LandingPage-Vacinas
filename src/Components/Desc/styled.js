@@ -12,6 +12,17 @@ export const divDesc = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (max-width: 1460px) {
+        flex-direction: column;
+        margin-top: 80px;
+        height: auto;
+        padding: 40px 0 40px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const desc = styled.div`
@@ -23,6 +34,10 @@ export const desc = styled.div`
         margin-bottom: 35px;
     }
     z-index: 1;
+
+    @media (max-width: 1460px) {
+        margin-top: 20px;
+    }
 `
 
 export const divCirculo = styled.div`

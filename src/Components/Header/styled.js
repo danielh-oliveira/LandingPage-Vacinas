@@ -13,7 +13,7 @@ export const container = styled.div`
         margin-top: 20px;
         margin-left: 30px;
         & > div > img {
-            width: 5rem;
+            width: 4rem;
         }
     }
 
@@ -25,7 +25,7 @@ export const ul = styled.ul`
 
     @media (max-width: 1460px) {
         padding-left: 15px;
-        padding-top: 10px
+        padding-top: 0;
     }
 `
 
@@ -45,8 +45,9 @@ export const li = styled.li`
     cursor: pointer;
 
     @media (max-width: 1460px) {
-        margin-right: 15px;
-        font-size: 18px;
+        padding-top:5px;
+        margin-right: 7px;
+        font-size: 17px;
         line-height: 30px;
         color: #545454;
         &:first-child {

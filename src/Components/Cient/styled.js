@@ -21,6 +21,17 @@ export const divCien = styled.div`
     & > div > h1:nth-child(2) {
         font-weight: bold;
     }
+
+    @media (max-width: 1460px) {
+        justify-content: center;
+        margin: 0 0 110px 0;
+
+        & > div {
+            max-width: 300px;
+            max-height: auto;
+            margin: 30px 0 0 0;
+        }
+    }
 `
 
 export const buttonCien = styled.button`
@@ -43,6 +54,17 @@ export const buttonCien = styled.button`
     line-height: 18px;
     letter-spacing: 0.07em;
     color: #FFFFFF;
+
+    @media (max-width: 1460px) {
+        width: 200px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0;
+        padding: 4px 0 0 0;
+        margin: 10px 0 0 16%;
+    }
+        
 `
 
 export const divFotoCien = styled.div`
@@ -54,6 +76,11 @@ export const divFotoCien = styled.div`
     @media (max-width: 1665px) and (min-width: 1430px) {
         top: 1200px;
     }
+
+    @media (max-width: 1460px) {
+        display: none;
+    }
+
 `
 
 export const SpanCor = styled.span`
