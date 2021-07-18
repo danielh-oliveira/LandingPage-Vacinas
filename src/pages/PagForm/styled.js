@@ -14,7 +14,7 @@ export const mainF = styled.main`
 `
 
 export const h1F = styled.h1`
-    margin: 130px 0;
+    margin: 130px 0 130px 0;
     text-align: center;
 `
 
