@@ -4,6 +4,7 @@ import Desc from '../../Components/Desc/'
 import Cient from '../../Components/Cient/'
 import Footer from '../../Components/Footer/';
 import imgSenhora from './img/imgSenhora.png';
+import { Link } from 'react-router-dom';
 
 import * as S from './styled';
 
@@ -19,7 +20,9 @@ export default function Home() {
                 </S.divFotoFilha>
                 <S.divEmail>
                     <S.input placeholder="Clique aqui e digite seu e-mail" type='email' />
-                    <S.button>CADASTRAR E-MAIL</S.button>
+                    <Link to="/Formulario">
+                        <S.button>CADASTRAR E-MAIL</S.button>
+                    </Link>
                 </S.divEmail>
             </S.containerHome>
             <Desc />
