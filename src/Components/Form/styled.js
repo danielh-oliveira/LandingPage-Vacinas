@@ -12,6 +12,10 @@ export const formF = styled.form`
     padding: 30px 0;
     width: 500px;
     margin: 0 auto;
+
+    @media (max-width: 500px) {
+        width: 300px;
+    }
 `
 
 export const inputF = styled.input`
@@ -26,6 +30,10 @@ export const inputF = styled.input`
     text-align: center;
     margin-bottom: 40px;
     background: #FFF;
+
+    @media (max-width: 500px) {
+        width: 250px;
+    }
 `
 
 export const labelF = styled.label`
