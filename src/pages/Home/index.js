@@ -32,7 +32,7 @@ export default function Home() {
             </S.containerHome>
             <Desc />
             <Cient />
-            <Footer githLink='https://github.com/danielh-oliveira' linkedinLink='https://www.linkedin.com/in/daniel-santos-96290696'/>
+            <Footer />
         </>
     );
 }

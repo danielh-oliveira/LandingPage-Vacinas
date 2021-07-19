@@ -35,14 +35,17 @@ function Gith() {
   
 
 export default function Footer(prop) {
+  const githLink = 'https://github.com/danielh-oliveira'
+  const linkedinLink = 'https://www.linkedin.com/in/daniel-santos-96290696'
+
     return(
         <S.divFtrContainer>
             <p>Landing page desenvolvida por: Daniel Santos Oliveira</p>
             <div>
-                <a href={prop.githLink} rel='noreferrer' target='_blank'>
+                <a href={githLink} rel='noreferrer' target='_blank'>
                     <Gith />
                 </a>
-                <a href={prop.linkedinLink} rel='noreferrer' target='_blank'>
+                <a href={linkedinLink} rel='noreferrer' target='_blank'>
                     <Linkd />
                 </a>
             </div>

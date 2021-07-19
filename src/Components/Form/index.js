@@ -9,7 +9,8 @@ export default function Form() {
     const [telefone, setTelefone] = useState('');
     const [email, setEmail] = useState(value? emailString : '');
 
-    function handleEnvio() {
+    function handleEnvio(e) {
+        e.preventDefault();
         const dados = JSON.stringify({nome, telefone, email});
         localStorage.setItem('DadosCliente', dados);
     }
