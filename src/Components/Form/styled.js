@@ -58,3 +58,7 @@ export const buttonF = styled.button`
     margin: 0 auto;
     cursor: pointer;
 `
+
+export const h1 = styled.h1`
+    color: #FFF;
+`

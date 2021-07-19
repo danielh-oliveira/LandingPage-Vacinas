@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import * as S from './styled';
 
 export default function PagForm() {
+
     function limpeza() {
         localStorage.clear();
     }
@@ -14,7 +15,7 @@ export default function PagForm() {
         <>
             <S.mainF>
                 <S.h1F>Falta pouco para concluir sua inscrição!</S.h1F>
-                <Form />
+                    <Form />
                 <Link to="/">
                     <S.buttonV onClick={limpeza}>Voltar</S.buttonV>
                 </Link>
